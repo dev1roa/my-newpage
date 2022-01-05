@@ -1,0 +1,142 @@
+
+li{
+    text-align: left;
+
+}
+
+
+.greenbtn{
+    color: green;
+    background-color:yellow;
+    
+}
+
+.redbtn{
+    color: whitesmoke;
+    background-color: red;
+
+}
+.bluebtn{
+    color:red;
+    background-color: green;
+}
+
+.greybtn{
+        color:red;
+        background-color: grey;
+}
+.yellowbtn{
+    color:yellow;
+    background-color: olive;
+}
+
+.boxmodel{
+    border: 5px solid black;
+    height: 100px;
+    width: 450px;
+    color:blue;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
+
+h4{
+    color: red;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.wp{
+    border: 1px solid black;
+    height: 100px;
+    width: 450px;
+    color:blue;
+    text-align: left;
+    display: block;
+    margin-top: 15px;
+    background-color: greenyellow;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+.or{
+    width: 900px;
+    margin:auto;
+    }
+    .sola-kaydir{
+    float:right;
+    padding:0 10px 10px 0;
+    }
+
+    h2{
+        text-align: left;
+        color: red;
+        border-bottom-left-radius: var(block);
+    }
+
+.box{
+
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #000;
+
+}
+
+.box1{
+    background: chartreuse;
+}
+
+.box2{
+    background: blue;
+}
+
+.box3{
+    background: rgb(236, 122, 122);
+}
+
+.box4{
+    background: gray;
+}
+
+.box5{
+    background: blue;
+}
+.box6{
+    background: rgb(238, 85, 85);
+}
+.box7{
+    background: gray;
+}
+.box8{
+    background: blue;
+}
+.box9{
+    background: rgb(238, 61, 61);
+}
+.box10{
+    background: gray;
+}
+.box11{
+    background: blue;
+}
+.box12{
+    background: red;
+}
+.box13{
+    background: gray;
+}
+
+.container{
+    display: grid;
+    grid-template: 70px / 450px 100px 450px;
+}
+
+.box1{
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+}
